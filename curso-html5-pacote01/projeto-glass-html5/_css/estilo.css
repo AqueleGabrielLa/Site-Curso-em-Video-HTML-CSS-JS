@@ -125,3 +125,30 @@ nav#menu a:hover{
 	text-decoration: underline;
 }
 
+/* formatção de áreas */
+section#corpo{
+	display: block;
+	width: 1200px;
+	float: left;
+	border-right: 1px #606060 solid;
+	padding-right: 15px;
+}
+
+aside#lateral{
+	display: block;
+	width: 500px;
+	float: right;
+}
+
+footer#rodape{
+	clear: both;
+	border-top: 1px #606060 solid;
+}
+
+footer#rodape p{
+	text-align: center;
+}
+
+footer#rodape a:hover{
+	color: #888888	;
+}
